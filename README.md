@@ -18,7 +18,9 @@ To convert this data into acceptable MIDI note inputs, the script makes use of t
 
 ![alt text](https://i.imgur.com/PmSQoq1.gif "General MIDI Pitch Guidelines as Used by pretty-MIDI")
 
-An issue that comes with this method is the fear that all generated notes will sounds relatively similar to each other, therefore other methods of ensuring compliancy with the MIDI pitch range will be investigated. Once the script generates MIDI notes for each facial action unit, an output MIDI is generated and located in the root directory of the project. For the example photo in the repo, the generated MIDI sounds like this:
+An issue that comes with this method is the fear that all generated notes will sounds relatively similar to each other, therefore other methods of ensuring compliancy with the MIDI pitch range will be investigated.
+
+Once the script generates MIDI notes for each facial action unit, an output MIDI is generated and located in the root directory of the project. For the example photo in the repo, the generated MIDI sounds like this:
 
 [A Beautiful Output Face Melody](https://soundcloud.com/kaleb-byrum/piano-melody-generated-by-gabe-newells-face)
 
