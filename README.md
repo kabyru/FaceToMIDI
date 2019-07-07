@@ -14,7 +14,11 @@ FaceToMIDI takes a .jpg or .jpeg image file as input, which is used as input int
 
 Once these output files are generated, the script then uses Python's built-in CSV reading capabilities to read the locations of the generated facial action units to use as MIDI note inputs.
 
-To convert this data into acceptable MIDI note inputs, the script makes use of the [pretty-MIDI Python Library](https://github.com/craffel/pretty-midi) (which will install itself automatically via PIP). As noted by the General MIDI Guidelines, MIDI note pitches are defined as a range of numbers spanning from 21 to 108. To remain compliant with this range, the script takes inputs taken from the generated CSV and continuously divides their value by 2 until their value lies within the acceptable MIDI pitch range. An issue that comes with this method is the fear that all generated notes will sounds relatively similar to each other, therefore other methods of ensuring compliancy with the MIDI pitch range will be investigated. Once the script generates MIDI notes for each facial action unit, an output MIDI is generated and located in the root directory of the project. For the example photo in the repo, the generated MIDI sounds like this:
+To convert this data into acceptable MIDI note inputs, the script makes use of the [pretty-MIDI Python Library](https://github.com/craffel/pretty-midi) (which will install itself automatically via PIP). As noted by the General MIDI Guidelines, MIDI note pitches are defined as a range of numbers spanning from 21 to 108. To remain compliant with this range, the script takes inputs taken from the generated CSV and continuously divides their value by 2 until their value lies within the acceptable MIDI pitch range.
+
+![alt text](https://i.imgur.com/PmSQoq1.gif "General MIDI Pitch Guidelines as Used by pretty-MIDI")
+
+An issue that comes with this method is the fear that all generated notes will sounds relatively similar to each other, therefore other methods of ensuring compliancy with the MIDI pitch range will be investigated. Once the script generates MIDI notes for each facial action unit, an output MIDI is generated and located in the root directory of the project. For the example photo in the repo, the generated MIDI sounds like this:
 
 [A Beautiful Output Face Melody](https://soundcloud.com/kaleb-byrum/piano-melody-generated-by-gabe-newells-face)
 
