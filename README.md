@@ -1,6 +1,6 @@
 # FaceToMIDI
 
-"FaceToMIDI" is a Python project that uses the output of OpenFace's Facial Recognition algorithm as input into PrettyMIDI's music writing capabilties. As you will find by testing different faces, you will notice that the distance the face is from the camera determines the pitch of the song, with each face creating a different variation of a similar melody. This project won't sing you The Beatles, but it will show you that in the eyes of the OpenFace algorihm, faces are relatively similar, with each of us capable of providing different variations to the same tune.
+"FaceToMIDI" is a Python project that uses the output of OpenFace's Facial Recognition algorithm as input into PrettyMIDI's music writing capabilities. As you will find by testing different faces, you will notice that the distance the face is from the camera determines the pitch of the song, with each face creating a different variation of a similar melody. This project won't sing you The Beatles, but it will show you that in the eyes of the OpenFace algorithm, faces are relatively similar, with each of us capable of providing different variations to the same tune.
 
 This project requires you to download the OpenFace Windows x64 Release, which can be found [here.](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Windows-Installation) Follow the instructions on the OpenFace installation page to ensure all reference models are properly installed, or this software will not work properly. Simply drop the Release ZIP in the FaceToMIDI directory and extract.
 
@@ -8,7 +8,7 @@ This software makes use of OpenFace 2.0.5 x64 Release. YMMV with other releases,
 
 ## How It Works
 
-FaceToMIDI takes a .jpg or .jpeg image file as input, which is used as input into OpenFace's facial recognition algorithm specifically designed for images (FaceLandmarkImg.exe). Once the algorihm completes its analysis of the image, an output image and CSV file are generated containing the data generated from the algorithm. For example, the output image generated for the example photo in the repo looks like this:
+FaceToMIDI takes a .jpg or .jpeg image file as input, which is used as input into OpenFace's facial recognition algorithm specifically designed for images (FaceLandmarkImg.exe). Once the algorithm completes its analysis of the image, an output image and CSV file are generated containing the data generated from the algorithm. For example, the output image generated for the example photo in the repo looks like this:
 
 ![alt text](https://i.imgur.com/iFV1rWm.jpg "Isn't Gaben beautiful?")
 
@@ -25,7 +25,7 @@ Once the script generates MIDI notes for each facial action unit, an output MIDI
 [A Beautiful Output Face Melody](https://soundcloud.com/kaleb-byrum/piano-melody-generated-by-gabe-newells-face)
 
 ## This Music Isn't My Taste. What's the Point of This?
-I created this project to test what musical capabilities could come from using OpenFace's facial recognition algorihm, and in turn, what musical applications could come from this computer vision innovation. I plan to push this project further by implementing real-time musical output using a webcam stream, which opens a door of opportunities, including using facial action units as inputs to multiple musical instruments, vis-a-vis, a face orchestra!
+I created this project to test what musical capabilities could come from using OpenFace's facial recognition algorithm, and in turn, what musical applications could come from this computer vision innovation. I plan to push this project further by implementing real-time musical output using a webcam stream, which opens a door of opportunities, including using facial action units as inputs to multiple musical instruments, vis-a-vis, a face orchestra!
 
 ## Let's work together!
 If you have interest in pushing this project further in a direction as mentioned above, feel free to fork and begin your own work! Feel free to contact me with ideas revolving around facial input musical applications, and together we can make something truly extraordinary.
