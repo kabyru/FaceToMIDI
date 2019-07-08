@@ -1,6 +1,6 @@
 # FaceToMIDI
 
-"FaceToMIDI" is a Python project that uses the output of OpenFace's Facial Recognition algorithm as input into PrettyMIDI's music writing capabilities. As you will find by testing different faces, the distance the face is from the camera determines the octave range of the song, with each face creating a different variation of a similar melody. This project won't sing you The Beatles, but it will show you that in the eyes of the OpenFace algorithm, faces are relatively similar, with each of us capable of providing different variations to the same tune.
+"FaceToMIDI" is a Python project that uses the output of OpenFace's Facial Recognition algorithm as input into pretty-MIDI's music writing capabilities. As you will find by testing different faces, the distance the face is from the camera determines the octave range of the song, with each face creating a different variation of a similar melody. This project won't sing you The Beatles, but it will show you that in the eyes of the OpenFace algorithm, faces are relatively similar, with each of us capable of providing different variations to the same tune.
 
 This project requires you to download the OpenFace Windows x64 Release, which can be found [here.](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Windows-Installation) Follow the instructions on the OpenFace installation page to ensure all reference models are properly installed, or this software will not work properly. Simply drop the Release ZIP in the FaceToMIDI directory and extract.
 
