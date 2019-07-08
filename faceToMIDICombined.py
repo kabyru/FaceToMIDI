@@ -1,3 +1,6 @@
+#Initial Release on 7/7/2019
+#Created by Kaleb Byrum, from Louisville with <3
+
 import subprocess
 import os
 os.system("pip install pretty_midi")
